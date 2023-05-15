@@ -15,14 +15,14 @@ const Pagination = ( {prev, next, onPrevious, onNext} ) => {
             <ul className="pagination justify-content-center">
                 {prev ? 
                         <li className="page-item">
-                            <button className="btn btn-info m-2 " onClick={handlePrevious}>
+                            <button className="btn btn-info m-2 text-white " onClick={handlePrevious}>
                                 Previous
                             </button>
                         </li>
                      : null}
                 {next ? 
                         <li className="page-item">
-                            <button className="btn btn-info m-2" onClick={handleNext}>
+                            <button className="btn btn-info m-2 text-white" onClick={handleNext}>
                                 Next
                             </button>
                         </li>
